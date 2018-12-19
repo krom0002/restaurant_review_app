@@ -1,0 +1,173 @@
+/* ====================== Restaurant Listing ====================== */
+
+.review_main_box {
+  /* width: 100%; */
+  text-align: center;
+  display: flex;
+  overflow-x: scroll;
+  background-color: green;
+  /* -webkit-overflow-scrolling: touch; */
+  padding: 5px;
+  margin: 5px;
+  border: black;
+  border-style: solid;
+  border-width: 5px;
+}
+
+#review_list {
+  background-color: blue;
+  display: flex;
+  padding: 5px;
+  margin: 5px;
+}
+
+.info_card {
+  background-color: greenyellow;
+  display: flex;
+  /* height: 200px; */
+  padding: 5px;
+  margin: 5px;
+}
+
+.hour_info_box {
+  color: black;
+  display: flex;
+  background-color: gray;
+  padding: 5px;
+  margin: 5px;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 125px;
+  /* order: 1; */
+}
+
+.name_box {
+  padding: 5px;
+  /* margin: 5px; */
+  background-color: white;
+}
+
+.address_box {
+  padding: 2px;
+  /* margin: 5px; */
+  background-color: white;
+}
+
+.hours_box {
+  display: flex;
+  background-color: white;
+  padding: 5px;
+  margin: 5px;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  order: 1;
+  width: 325px;
+}
+
+.day_box {
+  padding: 5px;
+  margin: 5px;
+  background-color: silver;
+}
+
+.review_card {
+  background-color: #444;
+  /* display: flex; */
+  /* height: 250px; */
+  padding: 5px;
+  margin: 5px;
+  width: 300px;
+}
+
+.info_box {
+  /* display: flex; */
+  background-color: white;
+  padding: 2px;
+  margin: 2px;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  order: 1;
+  /* width: 150px; */
+}
+
+.info_name_box {
+  background-color: silver;
+  /* padding: 2px;
+  margin: 2px; */
+}
+
+.info_date_box {
+  background-color: silver;
+  /* padding: 2px;
+  margin: 2px; */
+}
+
+.info_rate_box {
+  background-color: silver;
+  /* padding: 2px;
+  margin: 2px; */
+}
+
+.info_review_box {
+  display: flex;
+  background-color: white;
+  padding: 2px;
+  margin: 5px;
+  order: 2;
+  border: black;
+  border-style: solid;
+  border-width: 5px;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.main_box {
+  display: flex;
+  background-color: white;
+  padding: 2px;
+  margin: 5px;
+  order: 2;
+  border: black;
+  border-style: solid;
+  border-width: 5px;
+  /* flex-direction: column; */
+  justify-content: space-around;
+  height: 425px;
+  /* width: 100%; */
+}
+
+.img_box {
+  /* height: 100%; */
+  width: 50%;
+  background-color: #ccc;
+  border: black;
+  border-style: solid;
+  border-width: 5px;
+  padding: 2px;
+  margin: 5px;
+  
+}
+
+figure {
+  margin: 0;
+  background-position: center;
+  background-size: cover;
+  background-image: url("/img/1.jpg");
+  width: 100%;
+  height: 100%;
+}
+
+#map_container {
+  
+  /* height: 100%; */
+  width: 100%;
+  background-color: red;
+  border: black;
+  border-style: solid;
+  border-width: 5px;
+  padding: 2px;
+  margin: 5px;
+}

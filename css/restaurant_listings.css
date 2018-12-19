@@ -1,0 +1,106 @@
+/* ====================== Restaurant Listing ====================== */
+
+.food_list {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  overflow-x: scroll;
+  background-color: black;
+  /* -webkit-overflow-scrolling: touch; */
+  padding: 5px;
+  margin: 5px;
+}
+
+#restaurants-list {
+  background-color: blue;
+  display: flex;
+  padding: 5px;
+  margin: 5px;
+}
+
+li {
+  background-color: #444;
+  padding: 5px;
+  margin: 5px;
+}
+
+.restaurant_card {
+  background-color: #444;
+  display: flex;
+  height: 225px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.img_box {
+  background-color: black;
+  padding: 5px;
+  margin: 5px;
+  order: 1;
+}
+
+.side_box {
+  display: flex;
+  background-color: white;
+  padding: 2px;
+  margin: 5px;
+  order: 2;
+  border: black;
+  border-style: solid;
+  border-width: 5px;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.info_box {
+  display: flex;
+  background-color: white;
+  padding: 5px;
+  margin: 5px;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  order: 1;
+}
+
+.name_box {
+  padding: 5px;
+  margin: 5px;
+}
+
+.address_box {
+  padding: 2px;
+  margin: 5px;
+}
+
+.butt_box {
+  order: 2;
+  margin-top: auto;
+  background-color: black;
+  padding: 5px;
+  margin: 5px;
+}
+
+.restaurant-img {
+  flex: 0 1 auto;
+  height: 100%;
+}
+
+.restaurant-name {
+  color: black;
+  flex-basis: 0;
+  margin: 0.3px 0px;
+}
+
+.neighborhood {
+  color: black;
+  flex-basis: 0;
+  width: auto;
+  margin: 0.3px 0px;
+}
+
+.address {
+  color: black;
+  flex-basis: 0;
+  margin: 0.3px 0.3px;
+}
